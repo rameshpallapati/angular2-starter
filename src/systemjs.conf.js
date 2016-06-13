@@ -40,6 +40,7 @@
         'app/shared',
 
         // 3rd party barrels
+        '@angular/router',
         'lodash'
     ];
 
@@ -50,8 +51,7 @@
         'core',
         'http',
         'platform-browser',
-        'platform-browser-dynamic',
-        'router'
+        'platform-browser-dynamic'
     ];
 
     npmPackages.forEach(function (pkgName) {
