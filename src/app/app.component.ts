@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
 import {ROUTER_DIRECTIVES} from '@angular/router';
-import {APP_ROUTES} from './app.routes';
 import {NavbarComponent} from './navbar/navbar.component';
 import {CONSTANTS} from './shared';
 
@@ -14,7 +13,6 @@ export class AppComponent {
     public appBrand: string;
 
     constructor() {
-        this.appRoutes = APP_ROUTES;
         this.appBrand = CONSTANTS.MAIN.APP.BRAND;
     }
 }
